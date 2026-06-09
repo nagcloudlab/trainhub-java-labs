@@ -1,0 +1,19 @@
+title: "Java Collections — Inventory Manager"
+language: JAVA
+environment: java-core
+duration: 30
+maxScore: 100
+grading:
+  testCommand: "mvn test -q"
+  mode: auto
+starterDir: starter
+testDir: tests
+milestones:
+  - name: "Product CRUD"
+    points: 30
+  - name: "Search and Filter"
+    points: 30
+  - name: "Analytics"
+    points: 25
+  - name: "Edge Cases"
+    points: 15

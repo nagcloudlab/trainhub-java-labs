@@ -1,0 +1,17 @@
+title: "Design Patterns — Notification System"
+language: JAVA
+environment: java-core
+duration: 45
+maxScore: 100
+grading:
+  testCommand: "mvn test -q"
+  mode: auto
+starterDir: starter
+testDir: tests
+milestones:
+  - name: "Strategy pattern"
+    points: 35
+  - name: "Observer pattern"
+    points: 35
+  - name: "Builder pattern"
+    points: 30

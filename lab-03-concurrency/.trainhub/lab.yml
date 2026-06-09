@@ -1,0 +1,17 @@
+title: "Java Concurrency — Thread-Safe Bank"
+language: JAVA
+environment: java-core
+duration: 60
+maxScore: 100
+grading:
+  testCommand: "mvn test -q"
+  mode: auto
+starterDir: starter
+testDir: tests
+milestones:
+  - name: "Basic operations"
+    points: 30
+  - name: "Thread safety"
+    points: 40
+  - name: "Async transfers"
+    points: 30
